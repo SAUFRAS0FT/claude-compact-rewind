@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# never commit real transcripts or backups
+*.jsonl
+!tests/**/*.jsonl
+compact-rewind-backups/
+.compact-rewind-*.tmp
